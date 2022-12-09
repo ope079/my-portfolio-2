@@ -25,39 +25,41 @@
 </head>
 <body>
     <!-- Navigation -->
-  <nav class="" id="">
-    <div class="">
-      <a class="" href="">Ope Orekoya / Portfolio</a>
-      <div>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#hero">Opeoluwa Orekoya... More?</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#dropdown-menu" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Get The Info
+                </a>
+                <div class="dropdown-menu" id="dropdown-menu">
+                  <a class="dropdown-item" href="#skills">My Skills</a>
+                  <a class="dropdown-item" href="#work">My Work</a>
+                  <a class="dropdown-item" href="#about">About Me</a>
+                  <a class="dropdown-item" href="#contact">Contact Me</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </nav>
 
   <!-- Hero Section -->
-  <header class="">
-    <div class="">
-      <div class="">
-        <div class="col-lg-7">
-          <h1 class="font-effect-fire">More about Ope Orekoya</h1>
-        </div>
-        <div class="col-lg-5">
-          <div class="">
-            <div class=""></div>
-            <div class=""></div>
-            <img src="" alt="">
-          </div>
-        </div>
+  
+  <header class="" id="hero">
+    <div class="jumbotron">
+        <h1 class="display-4 font-effect-fire">More about Opeoluwa Orekoya</h1>
+        <p class="lead">General Full stack dev with a touch of ML.</p>
+        <hr class="my-4">
       </div>
-    </div>
   </header>
 
   <!-- Skills -->
-  <section class="skills ">
+  <section class="skills " id="skills">
     <div class="container">
       <h2>My Skills...</h2>
       <div id="row">
@@ -102,7 +104,7 @@
   </section>
 
   <!-- Work -->
-  <section class="work ">
+  <section class="work" id="work">
     <div class="container">
       <h2>My Work...</h2>
       <div id="row">
@@ -147,14 +149,14 @@
   </section>
 
   <!-- About -->
-  <section class="about-me" id="aboutMe">
+  <section class="about-me" id="about">
     <div class="container">
       <h2>About Me</h2>
     </div>
   </section>
 
   <!-- Contact-->
-  <section class="contact-section bg-brown">
+  <section class="contact-section bg-brown" id="contact">
     <div class="container">
         <h2>Contact Me</h2>
       </div>
