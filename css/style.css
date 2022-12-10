@@ -45,10 +45,16 @@ a:hover {
     background-repeat: no-repeat;
 }
 
-.card-body {
+.row {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.card {
     height: 500px;
     width: 500px;
-    margin: 0px 0px 0px 10px;
+    margin-bottom: 10px;
 }
 
 .card div div div img {
@@ -56,12 +62,6 @@ a:hover {
     width: 500px;
     margin-top: -22px;
     margin-left: -37px;
-}
-
-#row {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
 }
 
 
