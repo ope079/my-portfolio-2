@@ -6,10 +6,13 @@ body {
   background-color: cadetblue;
 }
 
+/* Styles for elements */
 p {
     color: black;
     font-weight: 500;
     width: 380px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 h1, h2 {
@@ -36,14 +39,27 @@ h5 {
     width: fit-content;
 }
 
+button{
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+button:hover {
+    background-color: blanchedalmond;
+    box-shadow: 0px 15px 20px rgba(240, 177, 6, 0.925);
+    color: cyan;
+}
+
 footer {
     float: left;
 }
 
+/* Hover for links */
 a h4:hover {
     color: #fcb620c5;
 }
 
+/* Styles for classes */
 .hero {
     background-image: url("../images/pic1.avif");
     background-repeat: no-repeat;
@@ -94,7 +110,7 @@ a h4:hover {
     margin-left: -37px;
 }
 
-
+/* Styles for ids */
 #me img {
     height: 280px;
     width: auto;
@@ -103,18 +119,5 @@ a h4:hover {
     margin-left: 1200px;
 }
 
-p { 
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-}
 
-button{
-    margin-top: 100px;
-    margin-left: 15px;
-}
 
-button:hover {
-    background-color: blanchedalmond;
-    box-shadow: 0px 15px 20px rgba(240, 177, 6, 0.925);
-    color: cyan;
-}
